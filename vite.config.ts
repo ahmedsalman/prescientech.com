@@ -7,6 +7,10 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
+  preview: {
+    port: 4173,
+    host: true,
+  },
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
