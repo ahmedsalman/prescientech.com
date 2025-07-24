@@ -8,8 +8,8 @@ export default defineConfig({
     port: 8080,
   },
   preview: {
+    host: "::",
     port: 4173,
-    host: true,
   },
   plugins: [react()],
   optimizeDeps: {
